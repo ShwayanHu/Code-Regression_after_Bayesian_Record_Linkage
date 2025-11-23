@@ -28,6 +28,8 @@ Hu, Xueyan, and Jerome P. Reiter. "Regression Analysis After Bipartite Bayesian 
 
 -   The simulations in section 5 is implemented in parallel with R function `mclapply`, but is commented. If large-scale simulation is expected, it is better to change `lapply` to `mclapply`.
 
+-   The C++ and C codes may be re-compiled before using. It heavily depends on your operating system.
+
 ## References
 
 1.   Sadinle, Mauricio. "Bayesian estimation of bipartite matchings for record linkage." *Journal of the American Statistical Association* 112.518 (2017): 600-612.
